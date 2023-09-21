@@ -1,10 +1,11 @@
 function double_pendulum(l1, l2, m1, m2, tspan, theta1_0, theta1_prime_0, ...
     theta2_0, theta2_prime_0)
+
 % Make some plots of double pendulum behavior.
-%
+
 % This function takes a bunch of inputs. See the my_double_pendulum
 % function for an example of how to set them up.
-%
+
 % See also:
 % MY_DOUBLE_PENDULUM
 
@@ -91,6 +92,3 @@ set(fig, 'color', 'white');
 set(ax, 'fontSize', 14);
 end
 end
-
-
-
